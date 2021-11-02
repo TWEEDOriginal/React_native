@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* fiverr3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* fiverr3Tests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		110A34E573D149E18B7C0232 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF87893F4CEF4EDB825DAC2B /* AntDesign.ttf */; };
+		190144D1108D418E8681C9E5 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DE7A22259714364BF49A858 /* Entypo.ttf */; };
+		6595564B8F474CDAA72C6675 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42C6188CD37E4769BD246C20 /* EvilIcons.ttf */; };
+		DA892F8C00A44AC7A91E3789 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D4212BF2D2428296F4AB92 /* Feather.ttf */; };
+		39C08E74C8524C6194221A65 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23C505AFD0C64BB89AAFDDD5 /* FontAwesome.ttf */; };
+		93D957ABA659400285CA4177 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAD7E148B3DE461E88CEFA70 /* FontAwesome5_Brands.ttf */; };
+		9E7262E0942D4FAA88911F3E /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A361A29D2CED4C01B62DA3B3 /* FontAwesome5_Regular.ttf */; };
+		69E524E93267489A91D104B0 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A37C2E62660549E9A1F7FA1F /* FontAwesome5_Solid.ttf */; };
+		B5DBDAF6618B49D481E55E92 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69031CBE47E44B759C19BA14 /* Fontisto.ttf */; };
+		07C93610C4E541DCA191DD74 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC2D4317E5654C6E9EF23DA2 /* Foundation.ttf */; };
+		1413DC024F2847F2AEC6713B /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B026E6FD30624F458F340E84 /* Ionicons.ttf */; };
+		4F8264FD31794C93B74C24A3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B487B5D0C9D24C419C1996AC /* MaterialCommunityIcons.ttf */; };
+		571FD4A827F44F63951D5BC2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DC51691194C4446A57F739F /* MaterialIcons.ttf */; };
+		368AB2B5A5A04A69B7A0FE6F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF680FA207C1435DA05A391C /* Octicons.ttf */; };
+		1CFFFC20AF3F43478522B363 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BAEE425AB4F89A40A65BD /* SimpleLineIcons.ttf */; };
+		5BDD3B8E1E9E44A59DE4FDC6 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD30ED241DBC4778B7115F97 /* Zocial.ttf */; };
+		10A92F35987947A898A38C61 /* Biryani-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45AC2F5B392F4FAF9F206DCD /* Biryani-Black.ttf */; };
+		214AF8A3C70C4CF08C63E5A9 /* Biryani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10699B48F0A74719995F621C /* Biryani-Bold.ttf */; };
+		A252C60407554A94BB0D8A1D /* Biryani-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F64CC1BE9E2E4E1984910ECC /* Biryani-ExtraBold.ttf */; };
+		BB533AB22416423E8F200397 /* Biryani-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 593A6035EEC64AADBD59BD29 /* Biryani-ExtraLight.ttf */; };
+		1886E585DCC14688BE44B51F /* Biryani-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E47C22BDFC840779D2AD571 /* Biryani-Light.ttf */; };
+		119B5F2DC70E4939B62D6468 /* Biryani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15A84FFCFD2644FE80CDEC63 /* Biryani-Regular.ttf */; };
+		76CEC6A94D264EA98A6B6B52 /* Biryani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29FE04996F2645C29B6F3266 /* Biryani-SemiBold.ttf */; };
+		7862057BF9D24231BA4CC987 /* Catamaran-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BE5E7C12A314D98AECFD975 /* Catamaran-Black.ttf */; };
+		E2C971090D724949B13A638E /* Catamaran-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1437EEF5705046B3B53873D9 /* Catamaran-Bold.ttf */; };
+		C0C30DE8FC21493DA03B0691 /* Catamaran-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DD0E0377A45D697DE7B23 /* Catamaran-ExtraBold.ttf */; };
+		A42BDEA5B76A4126ADB8E78F /* Catamaran-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2C2E92A190348C9817590CA /* Catamaran-ExtraLight.ttf */; };
+		5E1EB9469B68400F9229E1D8 /* Catamaran-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4703CEC526964605B3111DE7 /* Catamaran-Light.ttf */; };
+		66E4636D28474F2FBB4F7473 /* Catamaran-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B15F96144E947C3AF76612E /* Catamaran-Medium.ttf */; };
+		A9E6CED64FCF46BF9BDA718E /* Catamaran-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C191E7CEC421483BA4C9DED0 /* Catamaran-Regular.ttf */; };
+		C221DA7085E74ACA881FE3D8 /* Catamaran-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C9D448A00074D9C80A6534B /* Catamaran-SemiBold.ttf */; };
+		1C7E9C4154AE4EF09CE13294 /* Catamaran-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3054DA9E843743F59DDCD41B /* Catamaran-Thin.ttf */; };
+		3A8C85F0FA9F4CF3AC97D1DB /* Catamaran-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCEA4180F81147CDA0B9DF30 /* Catamaran-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = fiverr3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* fiverr3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiverr3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* fiverr3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiverr3Tests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* fiverr3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fiverr3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = fiverr3/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = fiverr3/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = fiverr3/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = fiverr3/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = fiverr3/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = fiverr3/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AF87893F4CEF4EDB825DAC2B /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DE7A22259714364BF49A858 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42C6188CD37E4769BD246C20 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01D4212BF2D2428296F4AB92 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		23C505AFD0C64BB89AAFDDD5 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AAD7E148B3DE461E88CEFA70 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A361A29D2CED4C01B62DA3B3 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A37C2E62660549E9A1F7FA1F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69031CBE47E44B759C19BA14 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC2D4317E5654C6E9EF23DA2 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B026E6FD30624F458F340E84 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B487B5D0C9D24C419C1996AC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DC51691194C4446A57F739F /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF680FA207C1435DA05A391C /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A7BAEE425AB4F89A40A65BD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD30ED241DBC4778B7115F97 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45AC2F5B392F4FAF9F206DCD /* Biryani-Black.ttf */ = {isa = PBXFileReference; name = "Biryani-Black.ttf"; path = "../assets/fonts/Biryani-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10699B48F0A74719995F621C /* Biryani-Bold.ttf */ = {isa = PBXFileReference; name = "Biryani-Bold.ttf"; path = "../assets/fonts/Biryani-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F64CC1BE9E2E4E1984910ECC /* Biryani-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Biryani-ExtraBold.ttf"; path = "../assets/fonts/Biryani-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		593A6035EEC64AADBD59BD29 /* Biryani-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Biryani-ExtraLight.ttf"; path = "../assets/fonts/Biryani-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9E47C22BDFC840779D2AD571 /* Biryani-Light.ttf */ = {isa = PBXFileReference; name = "Biryani-Light.ttf"; path = "../assets/fonts/Biryani-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15A84FFCFD2644FE80CDEC63 /* Biryani-Regular.ttf */ = {isa = PBXFileReference; name = "Biryani-Regular.ttf"; path = "../assets/fonts/Biryani-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		29FE04996F2645C29B6F3266 /* Biryani-SemiBold.ttf */ = {isa = PBXFileReference; name = "Biryani-SemiBold.ttf"; path = "../assets/fonts/Biryani-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7BE5E7C12A314D98AECFD975 /* Catamaran-Black.ttf */ = {isa = PBXFileReference; name = "Catamaran-Black.ttf"; path = "../assets/fonts/Catamaran-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1437EEF5705046B3B53873D9 /* Catamaran-Bold.ttf */ = {isa = PBXFileReference; name = "Catamaran-Bold.ttf"; path = "../assets/fonts/Catamaran-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D0DD0E0377A45D697DE7B23 /* Catamaran-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Catamaran-ExtraBold.ttf"; path = "../assets/fonts/Catamaran-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2C2E92A190348C9817590CA /* Catamaran-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Catamaran-ExtraLight.ttf"; path = "../assets/fonts/Catamaran-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4703CEC526964605B3111DE7 /* Catamaran-Light.ttf */ = {isa = PBXFileReference; name = "Catamaran-Light.ttf"; path = "../assets/fonts/Catamaran-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B15F96144E947C3AF76612E /* Catamaran-Medium.ttf */ = {isa = PBXFileReference; name = "Catamaran-Medium.ttf"; path = "../assets/fonts/Catamaran-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C191E7CEC421483BA4C9DED0 /* Catamaran-Regular.ttf */ = {isa = PBXFileReference; name = "Catamaran-Regular.ttf"; path = "../assets/fonts/Catamaran-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C9D448A00074D9C80A6534B /* Catamaran-SemiBold.ttf */ = {isa = PBXFileReference; name = "Catamaran-SemiBold.ttf"; path = "../assets/fonts/Catamaran-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3054DA9E843743F59DDCD41B /* Catamaran-Thin.ttf */ = {isa = PBXFileReference; name = "Catamaran-Thin.ttf"; path = "../assets/fonts/Catamaran-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCEA4180F81147CDA0B9DF30 /* Catamaran-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Catamaran-VariableFont_wght.ttf"; path = "../assets/fonts/Catamaran-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* fiverr3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* fiverr3Tests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = fiverr3Tests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* fiverr3 */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = fiverr3;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* fiverr3 */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* fiverr3Tests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				79991DBD29ED4AF393FAF2A1 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* fiverr3.app */,
+				00E356EE1AD99517003FC87E /* fiverr3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79991DBD29ED4AF393FAF2A1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AF87893F4CEF4EDB825DAC2B /* AntDesign.ttf */,
+				4DE7A22259714364BF49A858 /* Entypo.ttf */,
+				42C6188CD37E4769BD246C20 /* EvilIcons.ttf */,
+				01D4212BF2D2428296F4AB92 /* Feather.ttf */,
+				23C505AFD0C64BB89AAFDDD5 /* FontAwesome.ttf */,
+				AAD7E148B3DE461E88CEFA70 /* FontAwesome5_Brands.ttf */,
+				A361A29D2CED4C01B62DA3B3 /* FontAwesome5_Regular.ttf */,
+				A37C2E62660549E9A1F7FA1F /* FontAwesome5_Solid.ttf */,
+				69031CBE47E44B759C19BA14 /* Fontisto.ttf */,
+				BC2D4317E5654C6E9EF23DA2 /* Foundation.ttf */,
+				B026E6FD30624F458F340E84 /* Ionicons.ttf */,
+				B487B5D0C9D24C419C1996AC /* MaterialCommunityIcons.ttf */,
+				4DC51691194C4446A57F739F /* MaterialIcons.ttf */,
+				DF680FA207C1435DA05A391C /* Octicons.ttf */,
+				0A7BAEE425AB4F89A40A65BD /* SimpleLineIcons.ttf */,
+				FD30ED241DBC4778B7115F97 /* Zocial.ttf */,
+				45AC2F5B392F4FAF9F206DCD /* Biryani-Black.ttf */,
+				10699B48F0A74719995F621C /* Biryani-Bold.ttf */,
+				F64CC1BE9E2E4E1984910ECC /* Biryani-ExtraBold.ttf */,
+				593A6035EEC64AADBD59BD29 /* Biryani-ExtraLight.ttf */,
+				9E47C22BDFC840779D2AD571 /* Biryani-Light.ttf */,
+				15A84FFCFD2644FE80CDEC63 /* Biryani-Regular.ttf */,
+				29FE04996F2645C29B6F3266 /* Biryani-SemiBold.ttf */,
+				7BE5E7C12A314D98AECFD975 /* Catamaran-Black.ttf */,
+				1437EEF5705046B3B53873D9 /* Catamaran-Bold.ttf */,
+				4D0DD0E0377A45D697DE7B23 /* Catamaran-ExtraBold.ttf */,
+				A2C2E92A190348C9817590CA /* Catamaran-ExtraLight.ttf */,
+				4703CEC526964605B3111DE7 /* Catamaran-Light.ttf */,
+				8B15F96144E947C3AF76612E /* Catamaran-Medium.ttf */,
+				C191E7CEC421483BA4C9DED0 /* Catamaran-Regular.ttf */,
+				9C9D448A00074D9C80A6534B /* Catamaran-SemiBold.ttf */,
+				3054DA9E843743F59DDCD41B /* Catamaran-Thin.ttf */,
+				FCEA4180F81147CDA0B9DF30 /* Catamaran-VariableFont_wght.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* fiverr3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "fiverr3Tests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = fiverr3Tests;
+			productName = fiverr3Tests;
+			productReference = 00E356EE1AD99517003FC87E /* fiverr3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* fiverr3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "fiverr3" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fiverr3;
+			productName = fiverr3;
+			productReference = 13B07F961A680F5B00A75B9A /* fiverr3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "fiverr3" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* fiverr3 */,
+				00E356ED1AD99517003FC87E /* fiverr3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				110A34E573D149E18B7C0232 /* AntDesign.ttf in Resources */,
+				190144D1108D418E8681C9E5 /* Entypo.ttf in Resources */,
+				6595564B8F474CDAA72C6675 /* EvilIcons.ttf in Resources */,
+				DA892F8C00A44AC7A91E3789 /* Feather.ttf in Resources */,
+				39C08E74C8524C6194221A65 /* FontAwesome.ttf in Resources */,
+				93D957ABA659400285CA4177 /* FontAwesome5_Brands.ttf in Resources */,
+				9E7262E0942D4FAA88911F3E /* FontAwesome5_Regular.ttf in Resources */,
+				69E524E93267489A91D104B0 /* FontAwesome5_Solid.ttf in Resources */,
+				B5DBDAF6618B49D481E55E92 /* Fontisto.ttf in Resources */,
+				07C93610C4E541DCA191DD74 /* Foundation.ttf in Resources */,
+				1413DC024F2847F2AEC6713B /* Ionicons.ttf in Resources */,
+				4F8264FD31794C93B74C24A3 /* MaterialCommunityIcons.ttf in Resources */,
+				571FD4A827F44F63951D5BC2 /* MaterialIcons.ttf in Resources */,
+				368AB2B5A5A04A69B7A0FE6F /* Octicons.ttf in Resources */,
+				1CFFFC20AF3F43478522B363 /* SimpleLineIcons.ttf in Resources */,
+				5BDD3B8E1E9E44A59DE4FDC6 /* Zocial.ttf in Resources */,
+				10A92F35987947A898A38C61 /* Biryani-Black.ttf in Resources */,
+				214AF8A3C70C4CF08C63E5A9 /* Biryani-Bold.ttf in Resources */,
+				A252C60407554A94BB0D8A1D /* Biryani-ExtraBold.ttf in Resources */,
+				BB533AB22416423E8F200397 /* Biryani-ExtraLight.ttf in Resources */,
+				1886E585DCC14688BE44B51F /* Biryani-Light.ttf in Resources */,
+				119B5F2DC70E4939B62D6468 /* Biryani-Regular.ttf in Resources */,
+				76CEC6A94D264EA98A6B6B52 /* Biryani-SemiBold.ttf in Resources */,
+				7862057BF9D24231BA4CC987 /* Catamaran-Black.ttf in Resources */,
+				E2C971090D724949B13A638E /* Catamaran-Bold.ttf in Resources */,
+				C0C30DE8FC21493DA03B0691 /* Catamaran-ExtraBold.ttf in Resources */,
+				A42BDEA5B76A4126ADB8E78F /* Catamaran-ExtraLight.ttf in Resources */,
+				5E1EB9469B68400F9229E1D8 /* Catamaran-Light.ttf in Resources */,
+				66E4636D28474F2FBB4F7473 /* Catamaran-Medium.ttf in Resources */,
+				A9E6CED64FCF46BF9BDA718E /* Catamaran-Regular.ttf in Resources */,
+				C221DA7085E74ACA881FE3D8 /* Catamaran-SemiBold.ttf in Resources */,
+				1C7E9C4154AE4EF09CE13294 /* Catamaran-Thin.ttf in Resources */,
+				3A8C85F0FA9F4CF3AC97D1DB /* Catamaran-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* fiverr3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* fiverr3 */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fiverr3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiverr3.app/fiverr3";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = fiverr3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiverr3.app/fiverr3";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = fiverr3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = fiverr3;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = fiverr3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = fiverr3;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "fiverr3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "fiverr3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "fiverr3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
